@@ -1,0 +1,135 @@
+
+ body{
+   margin: 0px;
+ }
+
+ header{
+     background-image: url("islas-galapagos.jpg");
+     height: 185px;
+     width: 100%;
+     display: flex; /*crea columnas*/
+     justify-content: center; /*centra lo q va a haber en las columnas*/
+     align-items: center; /*centra lo q va a haber en las columnas*/
+     padding: 10px;
+ }
+ img {
+  height: 200px;
+  width: 300px;
+}
+ 
+ #btn_principal {
+     height: 45px;
+ }
+ 
+ nav ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  
+}
+nav li {
+  float: left; /* Opcional si se quiere hacer una botonera horizontal */
+  margin-right: 3px;
+}
+nav a {
+ display: block;
+ text-decoration: none;
+ /* a partir de aquí el diseño */
+ color: #fff; /* color tipográfico */
+ font-family: sans-serif; /* familia tipográfica */
+ font-size: 14px; /* tamaño de la fuente */
+ background-color: #07AD87; /* color de fondo */ 
+ padding: 10px 20px; /* más cuerpo al botón */
+ border: 1px solid #038265;
+ border-radius: 3px; /* puntas redondeadas*/
+ 
+}
+nav a:hover {
+  background-color: #038265;
+}
+#inicio{
+    width: 100%;
+    height: 700px;
+    background-image: url(fondogalapagos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    position: relative; /* esto sirve de relatividad para centrar la caja 2*/
+    padding: 10px; /*esto es el espacio libre de lo q va a haber adentro en cuanto al borde*/
+    /*OJO LOS CON LOS PADDING DEPENDE CUANTOS NUMERO PONEMOS ES LO QUE VA A CAMBIAR*/
+}
+   
+ #txt_completo {
+  width: 960px; 
+  height: 00px;
+  font-family: 'cursive';
+  margin-left: auto;
+  margin-right: auto;
+}
+p.textoprincipal {
+font-family: cursive;
+margin: 0px;
+border: 3px solid rgb(0 174 255);
+border-radius: 5px;
+box-shadow: 0 0 45px rgb(3 83 255);
+text-shadow: 0 0 10px rgb(0, 162, 255), 0 0 32px rgb(0, 132, 255), 0 0 52px rgb(0, 174, 255), 0 0 82px rgb(3, 83, 255), 0 0 100px rgb(0, 4, 255);
+}
+
+.caja2 {
+  position: absolute;
+  top: 65%;
+  right: calc(34% - 150px);
+  width: 400px;
+  height: 300px;
+  background-image: url(tortuga2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caja3 {
+  position: absolute;
+  top: 53%;
+  right: calc(90% - 150px);
+  width: 260px;
+  height: 100px;
+  background-image : url(bellena.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ footer {
+   width: 100%;
+   height: 120px; 
+   background-image: url("islas-galapagos.jpg");
+   padding: 10px;
+   position: relative;
+     }
+.fin {
+  font-family: cursive;
+  position: relative;
+  top: 40%;
+  left: 35%;
+  font-size: xx-large;
+  width: 400px;
+  color: yellow;
+  margin: 0px;
+  border: 3px solid rgb(0 174 255);
+  border-radius: 5px;
+  box-shadow: 0 0 45px rgb(3 83 255);
+  text-shadow: 0 0 10px rgb(0, 162, 255), 0 0 32px rgb(0, 132, 255), 0 0 52px rgb(0, 174, 255), 0 0 82px rgb(3, 83, 255), 0 0 100px rgb(0, 4, 255);
+}
+
+
+
+
+
+
+
+
+
